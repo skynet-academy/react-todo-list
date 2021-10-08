@@ -1,3 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+}
+
 .App {
   text-align: center;
 }
@@ -28,6 +35,12 @@
   color: #61dafb;
 }
 
+.container{
+    width: 800px;
+    text-align: center;
+    margin: 200px auto;
+}
+
 .close{
     color: green;
     font-size: 20px;
@@ -35,6 +48,30 @@
     transition: .5s;
 }
 
+.btn{
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.add-form{
+    width: 50%;
+    text-align: left;
+    margin: 10px auto;
+}
+
+.form-control label, .form-control input, .send{
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
+
+.task{
+    width: 800px;
+    margin: 50px auto;
+}
 .close:hover{
     font-size: 25px;
     color: red;
