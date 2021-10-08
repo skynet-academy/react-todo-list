@@ -28,6 +28,23 @@
   color: #61dafb;
 }
 
+.close{
+    color: green;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.close:hover{
+    font-size: 25px;
+    color: red;
+}
+
+.reminder{
+    border-left: 4px solid blue;
+    padding-left: 10px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
